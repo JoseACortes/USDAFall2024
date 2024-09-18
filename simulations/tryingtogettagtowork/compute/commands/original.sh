@@ -15,7 +15,7 @@
 #SBATCH --time=120:00:00
 
 atlas=false
-line=concentration_C_0001_Si_4666
+line=original
 n_tasks=27
 
 echo ########

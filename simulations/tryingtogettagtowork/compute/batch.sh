@@ -1,1 +1,4 @@
-bash commands/concentration_C_0001_Si_4666.sh
+bash commands/original.sh
+bash commands/noelastic.sh
+bash commands/noinelastic.sh
+bash commands/neither.sh

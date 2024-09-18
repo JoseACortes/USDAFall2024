@@ -333,3 +333,278 @@ Starting concentration_C_0001_Si_4666
 
 Tue Sep 10 04:44:33 PM CDT 2024
 
+
+Running concentration_C_0001_Si_4666
+
+
+Wed Sep 11 04:17:04 PM CDT 2024
+rm: cannot remove 'output/mctal/concentration_C_0001_Si_4666.mctal': No such file or directory
+Starting concentration_C_0001_Si_4666
+ mcnp     ver=6    , ld=02/20/18  09/11/24 16:17:04                   
+          Code Name & Version = MCNP_6.20, 6.2.0
+          Copyright LANS/LANL/DOE - see output file
+  
+     _/      _/        _/_/_/       _/      _/       _/_/_/         _/_/_/ 
+    _/_/  _/_/      _/             _/_/    _/       _/    _/     _/        
+   _/  _/  _/      _/             _/  _/  _/       _/_/_/       _/_/_/     
+  _/      _/      _/             _/    _/_/       _/           _/    _/    
+ _/      _/        _/_/_/       _/      _/       _/             _/_/       
+  
+  comment.  Physics models disabled.
+ 
+  warning.  f8 tally unreliable since neutron transport nonanalog.
+  warning.  f8 tally unreliable since neutron transport nonanalog.
+ mode n p e                                                           
+  comment.  photonuclear physics may be needed (phys:p).
+ comment. using random number generator  1, initial seed = 1337                
+ 
+  comment.  total nubar used if fissionable isotopes are present.
+  comment.          47 surfaces were deleted for being the same as others.
+  warning.  last time bin of tally       58 is less than time cutoff.
+  warning.  last time bin of tally      558 is less than time cutoff.
+  warning.  no de/df for tally 56 referenced on FT PHL.
+  comment.  threading will be used when possible in portions of mcnp6.
+  comment.  threading will be used for n/p/e table physics.
+  comment.  threading will generally not be used for model physics.
+  warning.  Force analog capture for pulse height tallies
+ imcn   is done
+
+  warning.  material        4 has been set to a conductor.
+  warning.  material        5 has been set to a conductor.
+  comment.  setting up hash-based fast table search for xsec tables
+
+ ctm =        0.00   nrn =                 0
+ dump    1 on file output/runtpe/concentration_C_0001_Si_4666.runtpe   nps =           0   coll =                0
+ xact   is done
+
+ cp0 =   0.09
+      run terminated when     1000000  particle histories were done.
+
+ =====>      30.48 M histories/hr    (based on wall-clock time in mcrun)
+
+
+  warning.   random number stride   152917 exceeded   174437 times.
+  warning.  4 photons from neutron collisions were created below a local photon energy cutoff and were not followed.
+  warning.     1 of   4 tallies did not pass all 10 statistical checks.
+  warning.     1 of   4 tallies were all zeros.
+  warning.     2 of   4 tallies had bins with large relative errors.
+
+ ctm =       52.57   nrn =       71249833106
+ dump    2 on file output/runtpe/concentration_C_0001_Si_4666.runtpe   nps =     1000000   coll =       7790342609
+ tally data written to file output/mctal/concentration_C_0001_Si_4666.mctal
+ mcrun  is done
+
+
+Wed Sep 11 04:19:03 PM CDT 2024
+
+
+Running original
+
+
+Fri Sep 13 10:58:05 PM CDT 2024
+rm: cannot remove 'output/outp/original.outp': No such file or directory
+rm: cannot remove 'output/mctal/original.mctal': No such file or directory
+rm: cannot remove 'output/runtpe/original.runtpe': No such file or directory
+Starting original
+ mcnp     ver=6    , ld=02/20/18  09/13/24 22:58:05                   
+          Code Name & Version = MCNP_6.20, 6.2.0
+          Copyright LANS/LANL/DOE - see output file
+  
+     _/      _/        _/_/_/       _/      _/       _/_/_/         _/_/_/ 
+    _/_/  _/_/      _/             _/_/    _/       _/    _/     _/        
+   _/  _/  _/      _/             _/  _/  _/       _/_/_/       _/_/_/     
+  _/      _/      _/             _/    _/_/       _/           _/    _/    
+ _/      _/        _/_/_/       _/      _/       _/             _/_/       
+  
+  comment.  Physics models disabled.
+ 
+  warning.  f8 tally unreliable since neutron transport nonanalog.
+ mode n p e                                                           
+  comment.  photonuclear physics may be needed (phys:p).
+ comment. using random number generator  1, initial seed = 1337                
+ 
+  comment.  total nubar used if fissionable isotopes are present.
+  comment.          47 surfaces were deleted for being the same as others.
+  warning.  last time bin of tally       58 is less than time cutoff.
+  warning.  no de/df for tally 56 referenced on FT PHL.
+  comment.  threading will be used when possible in portions of mcnp6.
+  comment.  threading will be used for n/p/e table physics.
+  comment.  threading will generally not be used for model physics.
+  warning.  Force analog capture for pulse height tallies
+ imcn   is done
+
+  warning.  material        4 has been set to a conductor.
+  warning.  material        5 has been set to a conductor.
+  comment.  setting up hash-based fast table search for xsec tables
+
+ ctm =        0.00   nrn =                 0
+ dump    1 on file output/runtpe/original.runtpe   nps =           0   coll =                0
+ xact   is done
+
+ cp0 =   0.09
+      run terminated when     1000000  particle histories were done.
+
+ =====>      30.78 M histories/hr    (based on wall-clock time in mcrun)
+
+
+  warning.   random number stride   152917 exceeded   174437 times.
+  warning.  4 photons from neutron collisions were created below a local photon energy cutoff and were not followed.
+  warning.     1 of   2 tallies had bins with large relative errors.
+
+ ctm =       52.08   nrn =       71249785000
+ dump    2 on file output/runtpe/original.runtpe   nps =     1000000   coll =       7790342609
+ tally data written to file output/mctal/original.mctal
+ mcrun  is done
+
+
+Fri Sep 13 11:00:03 PM CDT 2024
+
+
+Running noelastic
+
+
+Fri Sep 13 11:00:03 PM CDT 2024
+rm: cannot remove 'output/outp/noelastic.outp': No such file or directory
+rm: cannot remove 'output/mctal/noelastic.mctal': No such file or directory
+rm: cannot remove 'output/runtpe/noelastic.runtpe': No such file or directory
+Starting noelastic
+ mcnp     ver=6    , ld=02/20/18  09/13/24 23:00:03                   
+          Code Name & Version = MCNP_6.20, 6.2.0
+          Copyright LANS/LANL/DOE - see output file
+  
+     _/      _/        _/_/_/       _/      _/       _/_/_/         _/_/_/ 
+    _/_/  _/_/      _/             _/_/    _/       _/    _/     _/        
+   _/  _/  _/      _/             _/  _/  _/       _/_/_/       _/_/_/     
+  _/      _/      _/             _/    _/_/       _/           _/    _/    
+ _/      _/        _/_/_/       _/      _/       _/             _/_/       
+  
+  comment.  Physics models disabled.
+ 
+  warning.  f8 tally unreliable since neutron transport nonanalog.
+ mode n p e                                                           
+  comment.  photonuclear physics may be needed (phys:p).
+ phys:n 1j 14 i_els_model =    1                                      
+  fatal error.  entries must be numerical.
+ comment. using random number generator  1, initial seed = 1337                
+ 
+  comment.  total nubar used if fissionable isotopes are present.
+  comment.          47 surfaces were deleted for being the same as others.
+  warning.  last time bin of tally       58 is less than time cutoff.
+  warning.  no de/df for tally 56 referenced on FT PHL.
+  comment.  threading will be used when possible in portions of mcnp6.
+  comment.  threading will be used for n/p/e table physics.
+  comment.  threading will generally not be used for model physics.
+  warning.  Force analog capture for pulse height tallies
+ imcn   is done
+
+  warning.  material        4 has been set to a conductor.
+  warning.  material        5 has been set to a conductor.
+ xact   is done
+
+
+Fri Sep 13 11:00:03 PM CDT 2024
+
+
+Running noinelastic
+
+
+Fri Sep 13 11:00:03 PM CDT 2024
+rm: cannot remove 'output/outp/noinelastic.outp': No such file or directory
+rm: cannot remove 'output/mctal/noinelastic.mctal': No such file or directory
+rm: cannot remove 'output/runtpe/noinelastic.runtpe': No such file or directory
+Starting noinelastic
+ mcnp     ver=6    , ld=02/20/18  09/13/24 23:00:03                   
+          Code Name & Version = MCNP_6.20, 6.2.0
+          Copyright LANS/LANL/DOE - see output file
+  
+     _/      _/        _/_/_/       _/      _/       _/_/_/         _/_/_/ 
+    _/_/  _/_/      _/             _/_/    _/       _/    _/     _/        
+   _/  _/  _/      _/             _/  _/  _/       _/_/_/       _/_/_/     
+  _/      _/      _/             _/    _/_/       _/           _/    _/    
+ _/      _/        _/_/_/       _/      _/       _/             _/_/       
+  
+  comment.  Physics models disabled.
+ 
+  warning.  f8 tally unreliable since neutron transport nonanalog.
+ mode n p e                                                           
+  comment.  photonuclear physics may be needed (phys:p).
+ phys:n 1j 14 i_int_model =    1                                      
+  fatal error.  entries must be numerical.
+ comment. using random number generator  1, initial seed = 1337                
+ 
+  comment.  total nubar used if fissionable isotopes are present.
+  comment.          47 surfaces were deleted for being the same as others.
+  warning.  last time bin of tally       58 is less than time cutoff.
+  warning.  no de/df for tally 56 referenced on FT PHL.
+  comment.  threading will be used when possible in portions of mcnp6.
+  comment.  threading will be used for n/p/e table physics.
+  comment.  threading will generally not be used for model physics.
+  warning.  Force analog capture for pulse height tallies
+ imcn   is done
+
+  warning.  material        4 has been set to a conductor.
+  warning.  material        5 has been set to a conductor.
+ xact   is done
+
+
+Fri Sep 13 11:00:04 PM CDT 2024
+
+
+Running original
+
+
+Fri Sep 13 11:44:30 PM CDT 2024
+Starting original
+ mcnp     ver=6    , ld=02/20/18  09/13/24 23:44:30                   
+          Code Name & Version = MCNP_6.20, 6.2.0
+          Copyright LANS/LANL/DOE - see output file
+  
+     _/      _/        _/_/_/       _/      _/       _/_/_/         _/_/_/ 
+    _/_/  _/_/      _/             _/_/    _/       _/    _/     _/        
+   _/  _/  _/      _/             _/  _/  _/       _/_/_/       _/_/_/     
+  _/      _/      _/             _/    _/_/       _/           _/    _/    
+ _/      _/        _/_/_/       _/      _/       _/             _/_/       
+  
+  comment.  Physics models disabled.
+ 
+  warning.  f8 tally unreliable since neutron transport nonanalog.
+ mode n p e                                                           
+  comment.  photonuclear physics may be needed (phys:p).
+ comment. using random number generator  1, initial seed = 1337                
+ 
+  comment.  total nubar used if fissionable isotopes are present.
+  comment.          47 surfaces were deleted for being the same as others.
+  warning.  last time bin of tally       58 is less than time cutoff.
+  warning.  no de/df for tally 56 referenced on FT PHL.
+  comment.  threading will be used when possible in portions of mcnp6.
+  comment.  threading will be used for n/p/e table physics.
+  comment.  threading will generally not be used for model physics.
+  warning.  Force analog capture for pulse height tallies
+ imcn   is done
+
+  warning.  material        4 has been set to a conductor.
+  warning.  material        5 has been set to a conductor.
+  comment.  setting up hash-based fast table search for xsec tables
+
+ ctm =        0.00   nrn =                 0
+ dump    1 on file output/runtpe/original.runtpe   nps =           0   coll =                0
+ xact   is done
+
+ cp0 =   0.09
+      run terminated when     1000000  particle histories were done.
+
+ =====>      30.72 M histories/hr    (based on wall-clock time in mcrun)
+
+
+  warning.   random number stride   152917 exceeded   174437 times.
+  warning.  4 photons from neutron collisions were created below a local photon energy cutoff and were not followed.
+  warning.     1 of   2 tallies had bins with large relative errors.
+
+ ctm =       52.20   nrn =       71249785000
+ dump    2 on file output/runtpe/original.runtpe   nps =     1000000   coll =       7790342609
+ tally data written to file output/mctal/original.mctal
+ mcrun  is done
+
+
+Fri Sep 13 11:46:28 PM CDT 2024
+
