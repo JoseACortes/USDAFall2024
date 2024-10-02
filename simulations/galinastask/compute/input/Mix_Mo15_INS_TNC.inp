@@ -1,0 +1,97 @@
+c 2 DETECTORS
+c
+c CELL CARDS
+c
+c @@@@@@@@@@ Detectors @@@@@@@@@@@@@@@@@
+c
+101 7 -5.08 -21 imp:n,p 1 $LaBr Detector #1 Active Region
+102 7 -5.08 -22 imp:n,p 1 $LaBr Detector #2 Active Region
+c
+c @@@@@@@@@ Shielding @@@@@@@@@@@@@@@@@
+c
+121 5 -11.29 -31 imp:n,p 1 $Pb1
+122 5 -11.29 -32 imp:n,p 1 $Pb2
+c
+c @@@@@@@@@@ SOIL VOLUME @@@@@@@@@@@
+c
+20 1 -1.542 -1 imp:n,p 1 $ SOIL VOLUME
+c
+30 12 -0.00129 -200 #101 #102 #121 #122 #20    imp:n,p 1 $Rest of the World
+31 0 200 imp:n,p 0 $Outside world
+
+c SURFACE CARDS
+c
+c %%%%%%%%%%%
+c Sample Volume
+c %%%%%%%%%%%
+1 rcc 0.0 0.0 48.0  0.0 0.0 76.0  45 $30 - distance source-surface, 60 - thickness, 50 - radius
+c 1 rpp -500 500 -500 500 48 348 $Soil xmin xmax ymin ymax zmin zmax
+c %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+c Active Detector Region
+c %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+21 rcc -10.2  45.5 20.3   20.3 0.0 0.0   4.5 $Detector 1 Base center, Hx,Hy,Hz, radius 
+22 rcc -10.2 -45.5 20.3   20.3 0.0 0.0   4.5 $Detector 2
+c %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+c Shielding Pb
+c %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+31 rpp -20.3 20.3 7.6 33 2.54 15.2 $Pb xmin xmax ymin ymax zmin zmax
+32 rpp -20.3 20.3 -33 -7.6 2.54 15.2 $Pb xmin xmax ymin ymax zmin zmax
+c ************************
+200 so 1500
+
+c DATA CARDS
+mode n p e
+phys:n 1j 14 $analog neutron transport
+phys:p
+phys:e
+sdef pos=0 0 0   par=1   erg=14.0  wgt=1   vec= 0 0 1   dir=d1
+si1  -1 .93 1
+sp1   0  0.0  1.0
+c ********************
+c begin material cards
+c ********************
+c Mix Mo=15 *******************************
+m1	14000	-0.2032	$Silicon
+	13027	-0.1611	$Aluminum
+	26000	-0.0315	$Iron
+	6000	-0.0870	$Carbon
+	8016	-0.5027	$Oxygen
+	1001	-0.0145	$Hydrogen
+c  **********************************
+m5	82207 1 $Lead
+c ****************************************
+c	LaBr detector
+c ****************************************
+m7       35079    -0.2946	$ Br79
+	 35081	  -0.3069       $ Br81
+  	 57139    -0.3485	$ La139
+	 58140    -0.0500 	$ Ce140
+c ****************************************
+c m7       35079	-0.316063    $ Br79 
+c	   35081	-0.315242    $ Br81 
+c 	   58136	-0.000066    $ Ce136
+c	   58138	-0.000090    $ Ce138
+c	   58140	-0.032308    $ Ce140
+c	   58142	-0.004118    $ Ce142
+c	   57138.80c    -0.000293    $ La138
+c	   57139.80c	-0.331817    $ La139
+c ************ air den=1.15e-3g/cc********
+m12     8016 -0.23
+        7014 -0.77
+c
+c end material cards
+c
+rand seed=155698645324321 $different initial random #; seed# - any less 18 digits
+c
+c ***************** begin tallies *************************
+F6:e (101 102)
+fc78 *********Broadened Pulse Height Tally Sum of Detectors 1 & 2 ***********
+e78 0 1e-5 932i 8.4295
+f78:p (101 102)
+FT78 PHL 1 6 1 0 GEB -0.026198 0.059551 -0.037176
+T78 50 1e5 $ 0.5-1000 us
+c
+c ************* end tallies ********************************************
+c
+c mplot tal 78 freq 10000
+nps 2e8
