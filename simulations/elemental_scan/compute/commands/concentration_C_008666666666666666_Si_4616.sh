@@ -12,7 +12,7 @@
 #SBATCH --cpus-per-task=48
 
 ##SBATH -p priority --qos=nsdl
-#SBATCH --time=120:00:00
+#SBATCH --time=200:00:00
 
 atlas=true
 line=concentration_C_008666666666666666_Si_4616

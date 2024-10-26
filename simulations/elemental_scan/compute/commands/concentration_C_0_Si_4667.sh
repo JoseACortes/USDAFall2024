@@ -12,9 +12,9 @@
 #SBATCH --cpus-per-task=48
 
 ##SBATH -p priority --qos=nsdl
-#SBATCH --time=3:00:00
+#SBATCH --time=200:00:00
 
-atlas=false
+atlas=true
 line=concentration_C_0_Si_4667
 n_tasks=96
 

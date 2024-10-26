@@ -1,0 +1,2 @@
+sbatch commands/Mix_Mo15_INS_TNC.sh
+sbatch commands/Mix_Mo15_Total_sp.sh

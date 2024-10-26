@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#SBATCH --job-name=concentration_C_24233333333333335_Si_3253333333333333
+#SBATCH --job-name=Mo15Xfast
 #SBATCH --account=auburn-mins
 ##SBATCH -p medium
 ##SBATCH --account=scinet
@@ -12,11 +12,11 @@
 #SBATCH --cpus-per-task=48
 
 ##SBATH -p priority --qos=nsdl
-#SBATCH --time=200:00:00
+#SBATCH --time=120:00:00
 
-atlas=true
-line=concentration_C_24233333333333335_Si_3253333333333333
-n_tasks=96
+atlas=false
+line=Mo15Xfast
+n_tasks=20
 
 echo ########
 echo 'Running' $line

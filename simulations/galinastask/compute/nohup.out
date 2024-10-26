@@ -218,3 +218,297 @@ Starting Mix_Mo15_Total_sp
 
 Thu Sep 26 05:31:39 AM CDT 2024
 
+
+Running Mo15Xfast
+
+
+Fri Oct 25 11:20:45 PM CDT 2024
+rm: cannot remove 'output/outp/Mo15Xfast.outp': No such file or directory
+rm: cannot remove 'output/mctal/Mo15Xfast.mctal': No such file or directory
+rm: cannot remove 'output/runtpe/Mo15Xfast.runtpe': No such file or directory
+Starting Mo15Xfast
+ mcnp     ver=6    , ld=02/20/18  10/25/24 23:20:45                   
+          Code Name & Version = MCNP_6.20, 6.2.0
+          Copyright LANS/LANL/DOE - see output file
+  
+     _/      _/        _/_/_/       _/      _/       _/_/_/         _/_/_/ 
+    _/_/  _/_/      _/             _/_/    _/       _/    _/     _/        
+   _/  _/  _/      _/             _/  _/  _/       _/_/_/       _/_/_/     
+  _/      _/      _/             _/    _/_/       _/           _/    _/    
+ _/      _/        _/_/_/       _/      _/       _/             _/_/       
+  
+  comment.  Physics models disabled.
+ 31 rpp -20.3 20.3 7.6 40.6 25.4 15.2                                 
+  fatal error.  invalid dimension for macrobody.
+ 32 rpp -20.3 20.3 -33 40.6 25.4 15.2                                 
+  fatal error.  invalid dimension for macrobody.
+ si -1 0.93 1                                                         
+  fatal error.  source distribution number missing.
+ sp 0 0 1                                                             
+  fatal error.  source distribution number missing.
+ 
+  warning.  f8 tally unreliable since neutron transport nonanalog.
+  warning.  f8 tally unreliable since neutron transport nonanalog.
+  warning.  f8 tally unreliable since neutron transport nonanalog.
+  warning.  f8 tally unreliable since neutron transport nonanalog.
+  warning.  f8 tally unreliable since neutron transport nonanalog.
+  warning.  f8 tally unreliable since neutron transport nonanalog.
+  warning.  f8 tally unreliable since neutron transport nonanalog.
+  warning.  f8 tally unreliable since neutron transport nonanalog.
+ mode n p e                                                           
+  comment.  photonuclear physics may be needed (phys:p).
+ comment. using random number generator  1, initial seed = 1337                
+ 
+  comment.  total nubar used if fissionable isotopes are present.
+  comment.  electron importances have been set equal to 1.
+  fatal error.  surface       101 not found for cell        30 card.
+  fatal error.  surface       102 not found for cell        30 card.
+  fatal error.  surface       121 not found for cell        30 card.
+  fatal error.  surface       122 not found for cell        30 card.
+  fatal error.  surface        20 not found for cell        30 card.
+  fatal error.  surface      101 of cell       30 is not defined.
+  fatal error.  surface      102 of cell       30 is not defined.
+  fatal error.  surface      121 of cell       30 is not defined.
+ additional error messages on file output/outp/Mo15Xfast.outp
+ imcn   is done
+
+ xact   is done
+
+
+Fri Oct 25 11:20:45 PM CDT 2024
+
+
+Running Mo15Xfast
+
+
+Fri Oct 25 11:25:43 PM CDT 2024
+rm: cannot remove 'output/mctal/Mo15Xfast.mctal': No such file or directory
+Starting Mo15Xfast
+ mcnp     ver=6    , ld=02/20/18  10/25/24 23:25:43                   
+          Code Name & Version = MCNP_6.20, 6.2.0
+          Copyright LANS/LANL/DOE - see output file
+  
+     _/      _/        _/_/_/       _/      _/       _/_/_/         _/_/_/ 
+    _/_/  _/_/      _/             _/_/    _/       _/    _/     _/        
+   _/  _/  _/      _/             _/  _/  _/       _/_/_/       _/_/_/     
+  _/      _/      _/             _/    _/_/       _/           _/    _/    
+ _/      _/        _/_/_/       _/      _/       _/             _/_/       
+  
+  comment.  Physics models disabled.
+ si -1 0.93 1                                                         
+  fatal error.  source distribution number missing.
+ sp 0 0 1                                                             
+  fatal error.  source distribution number missing.
+ 
+  warning.  f8 tally unreliable since neutron transport nonanalog.
+  warning.  f8 tally unreliable since neutron transport nonanalog.
+  warning.  f8 tally unreliable since neutron transport nonanalog.
+  warning.  f8 tally unreliable since neutron transport nonanalog.
+  warning.  f8 tally unreliable since neutron transport nonanalog.
+  warning.  f8 tally unreliable since neutron transport nonanalog.
+  warning.  f8 tally unreliable since neutron transport nonanalog.
+  warning.  f8 tally unreliable since neutron transport nonanalog.
+ mode n p e                                                           
+  comment.  photonuclear physics may be needed (phys:p).
+ comment. using random number generator  1, initial seed = 1337                
+ 
+  comment.  total nubar used if fissionable isotopes are present.
+  comment.  electron importances have been set equal to 1.
+  fatal error.  surface       101 not found for cell        30 card.
+  fatal error.  surface       102 not found for cell        30 card.
+  fatal error.  surface       121 not found for cell        30 card.
+  fatal error.  surface       122 not found for cell        30 card.
+  fatal error.  surface        20 not found for cell        30 card.
+  fatal error.  surface      101 of cell       30 is not defined.
+  fatal error.  surface      102 of cell       30 is not defined.
+  fatal error.  surface      121 of cell       30 is not defined.
+  fatal error.  surface      122 of cell       30 is not defined.
+  fatal error.  surface       20 of cell       30 is not defined.
+ additional error messages on file output/outp/Mo15Xfast.outp
+ additional error messages on file output/outp/Mo15Xfast.outp
+ imcn   is done
+
+ xact   is done
+
+
+Fri Oct 25 11:25:44 PM CDT 2024
+
+
+Running Mo15Xfast
+
+
+Fri Oct 25 11:27:34 PM CDT 2024
+rm: cannot remove 'output/mctal/Mo15Xfast.mctal': No such file or directory
+Starting Mo15Xfast
+ mcnp     ver=6    , ld=02/20/18  10/25/24 23:27:34                   
+          Code Name & Version = MCNP_6.20, 6.2.0
+          Copyright LANS/LANL/DOE - see output file
+  
+     _/      _/        _/_/_/       _/      _/       _/_/_/         _/_/_/ 
+    _/_/  _/_/      _/             _/_/    _/       _/    _/     _/        
+   _/  _/  _/      _/             _/  _/  _/       _/_/_/       _/_/_/     
+  _/      _/      _/             _/    _/_/       _/           _/    _/    
+ _/      _/        _/_/_/       _/      _/       _/             _/_/       
+  
+  comment.  Physics models disabled.
+ 
+  warning.  f8 tally unreliable since neutron transport nonanalog.
+  warning.  f8 tally unreliable since neutron transport nonanalog.
+  warning.  f8 tally unreliable since neutron transport nonanalog.
+  warning.  f8 tally unreliable since neutron transport nonanalog.
+  warning.  f8 tally unreliable since neutron transport nonanalog.
+  warning.  f8 tally unreliable since neutron transport nonanalog.
+  warning.  f8 tally unreliable since neutron transport nonanalog.
+  warning.  f8 tally unreliable since neutron transport nonanalog.
+ mode n p e                                                           
+  comment.  photonuclear physics may be needed (phys:p).
+ comment. using random number generator  1, initial seed = 1337                
+ 
+  comment.  total nubar used if fissionable isotopes are present.
+  comment.  electron importances have been set equal to 1.
+  fatal error.  surface       101 not found for cell        30 card.
+  fatal error.  surface       102 not found for cell        30 card.
+  fatal error.  surface       121 not found for cell        30 card.
+  fatal error.  surface       122 not found for cell        30 card.
+  fatal error.  surface        20 not found for cell        30 card.
+  fatal error.  surface      101 of cell       30 is not defined.
+  fatal error.  surface      102 of cell       30 is not defined.
+  fatal error.  surface      121 of cell       30 is not defined.
+  fatal error.  surface      122 of cell       30 is not defined.
+  fatal error.  surface       20 of cell       30 is not defined.
+  comment.           6 surfaces were deleted for being the same as others.
+  warning.  source distribution        1 is not used in this problem.
+  warning.  last time bin of tally       18 is less than time cutoff.
+ additional error messages on file output/outp/Mo15Xfast.outp
+ imcn   is done
+
+ xact   is done
+
+
+Fri Oct 25 11:27:35 PM CDT 2024
+
+
+Running Mo15Xfast
+
+
+Fri Oct 25 11:30:09 PM CDT 2024
+rm: cannot remove 'output/mctal/Mo15Xfast.mctal': No such file or directory
+Starting Mo15Xfast
+ mcnp     ver=6    , ld=02/20/18  10/25/24 23:30:09                   
+          Code Name & Version = MCNP_6.20, 6.2.0
+          Copyright LANS/LANL/DOE - see output file
+  
+     _/      _/        _/_/_/       _/      _/       _/_/_/         _/_/_/ 
+    _/_/  _/_/      _/             _/_/    _/       _/    _/     _/        
+   _/  _/  _/      _/             _/  _/  _/       _/_/_/       _/_/_/     
+  _/      _/      _/             _/    _/_/       _/           _/    _/    
+ _/      _/        _/_/_/       _/      _/       _/             _/_/       
+  
+  comment.  Physics models disabled.
+ 
+  warning.  f8 tally unreliable since neutron transport nonanalog.
+  warning.  f8 tally unreliable since neutron transport nonanalog.
+  warning.  f8 tally unreliable since neutron transport nonanalog.
+  warning.  f8 tally unreliable since neutron transport nonanalog.
+  warning.  f8 tally unreliable since neutron transport nonanalog.
+  warning.  f8 tally unreliable since neutron transport nonanalog.
+  warning.  f8 tally unreliable since neutron transport nonanalog.
+  warning.  f8 tally unreliable since neutron transport nonanalog.
+ mode n p e                                                           
+  comment.  photonuclear physics may be needed (phys:p).
+ comment. using random number generator  1, initial seed = 1337                
+ 
+  comment.  total nubar used if fissionable isotopes are present.
+  comment.  electron importances have been set equal to 1.
+  comment.           6 surfaces were deleted for being the same as others.
+  warning.  source distribution        1 is not used in this problem.
+  warning.  last time bin of tally       18 is less than time cutoff.
+  warning.  last time bin of tally       28 is less than time cutoff.
+  warning.  last time bin of tally       38 is less than time cutoff.
+  warning.  last time bin of tally       48 is less than time cutoff.
+  warning.  last time bin of tally       58 is less than time cutoff.
+  warning.  last time bin of tally       68 is less than time cutoff.
+  warning.  last time bin of tally       78 is less than time cutoff.
+  warning.  last time bin of tally       88 is less than time cutoff.
+  warning.  no de/df for tally 16 referenced on FT PHL.
+  warning.  no de/df for tally 26 referenced on FT PHL.
+  warning.  no de/df for tally 36 referenced on FT PHL.
+ additional error messages on file output/outp/Mo15Xfast.outp
+ imcn   is done
+
+  comment.  setting up hash-based fast table search for xsec tables
+
+ ctm =        0.00   nrn =                 0
+ dump    1 on file output/runtpe/Mo15Xfast.runtpe   nps =           0   coll =                0
+ xact   is done
+
+ cp0 =   0.06
+      run terminated when        1000  particle histories were done.
+
+ =====>       9.45 M histories/hr    (based on wall-clock time in mcrun)
+
+
+
+ ctm =        0.12   nrn =         199745905
+ dump    2 on file output/runtpe/Mo15Xfast.runtpe   nps =        1000   coll =         21785640
+ tally data written to file output/mctal/Mo15Xfast.mctal
+ mcrun  is done
+
+
+Fri Oct 25 11:30:11 PM CDT 2024
+
+
+Running Mo15Xfast
+
+
+Fri Oct 25 11:31:02 PM CDT 2024
+Starting Mo15Xfast
+ mcnp     ver=6    , ld=02/20/18  10/25/24 23:31:02                   
+          Code Name & Version = MCNP_6.20, 6.2.0
+          Copyright LANS/LANL/DOE - see output file
+  
+     _/      _/        _/_/_/       _/      _/       _/_/_/         _/_/_/ 
+    _/_/  _/_/      _/             _/_/    _/       _/    _/     _/        
+   _/  _/  _/      _/             _/  _/  _/       _/_/_/       _/_/_/     
+  _/      _/      _/             _/    _/_/       _/           _/    _/    
+ _/      _/        _/_/_/       _/      _/       _/             _/_/       
+  
+  comment.  Physics models disabled.
+ 
+  warning.  f8 tally unreliable since neutron transport nonanalog.
+  warning.  f8 tally unreliable since neutron transport nonanalog.
+  warning.  f8 tally unreliable since neutron transport nonanalog.
+  warning.  f8 tally unreliable since neutron transport nonanalog.
+  warning.  f8 tally unreliable since neutron transport nonanalog.
+  warning.  f8 tally unreliable since neutron transport nonanalog.
+  warning.  f8 tally unreliable since neutron transport nonanalog.
+  warning.  f8 tally unreliable since neutron transport nonanalog.
+ mode n p e                                                           
+  comment.  photonuclear physics may be needed (phys:p).
+ comment. using random number generator  1, initial seed = 1337                
+ 
+  comment.  total nubar used if fissionable isotopes are present.
+  comment.  electron importances have been set equal to 1.
+  comment.           6 surfaces were deleted for being the same as others.
+  warning.  source distribution        1 is not used in this problem.
+  warning.  last time bin of tally       18 is less than time cutoff.
+  warning.  last time bin of tally       28 is less than time cutoff.
+  warning.  last time bin of tally       38 is less than time cutoff.
+  warning.  last time bin of tally       48 is less than time cutoff.
+  warning.  last time bin of tally       58 is less than time cutoff.
+  warning.  last time bin of tally       68 is less than time cutoff.
+  warning.  last time bin of tally       78 is less than time cutoff.
+  warning.  last time bin of tally       88 is less than time cutoff.
+  warning.  no de/df for tally 16 referenced on FT PHL.
+  warning.  no de/df for tally 26 referenced on FT PHL.
+  warning.  no de/df for tally 36 referenced on FT PHL.
+ additional error messages on file output/outp/Mo15Xfast.outp
+ imcn   is done
+
+  comment.  setting up hash-based fast table search for xsec tables
+
+ ctm =        0.00   nrn =                 0
+ dump    1 on file output/runtpe/Mo15Xfast.runtpe   nps =           0   coll =                0
+ xact   is done
+
+ cp0 =   0.06

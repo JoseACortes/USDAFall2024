@@ -1,0 +1,112 @@
+
+Running Mix_Mo15_Total_sp
+
+
+Thu Oct 10 02:35:15 PM CDT 2024
+rm: cannot remove 'output/mctal/Mix_Mo15_Total_sp.mctal': No such file or directory
+Starting Mix_Mo15_Total_sp
+"ulimit": executable file not found in $PATH
+ mcnp     ver=6    , ld=02/20/18  10/10/24 14:35:17                   
+          Code Name & Version = MCNP_6.20, 6.2.0
+          Copyright LANS/LANL/DOE - see output file
+  
+     _/      _/        _/_/_/       _/      _/       _/_/_/         _/_/_/ 
+    _/_/  _/_/      _/             _/_/    _/       _/    _/     _/        
+   _/  _/  _/      _/             _/  _/  _/       _/_/_/       _/_/_/     
+  _/      _/      _/             _/    _/_/       _/           _/    _/    
+ _/      _/        _/_/_/       _/      _/       _/             _/_/       
+  
+  comment.  Physics models disabled.
+ mode n p $ e                                                         
+  comment.  photonuclear physics may be needed (phys:p).
+ 
+  warning.  f8 tally unreliable since neutron transport nonanalog.
+ comment. using random number generator  1, initial seed = 1245324321          
+  comment.  total nubar used if fissionable isotopes are present.
+  comment.           6 surfaces were deleted for being the same as others.
+  comment.  threading will be used when possible in portions of mcnp6.
+  comment.  threading will be used for n/p/e table physics.
+  comment.  threading will generally not be used for model physics.
+  comment.  unresolved resonances with variance reduction with f8 tally.
+  warning.  Force analog capture for pulse height tallies
+  warning.  Pulse-height tally variance reduction forced off. F8 tallies not reliable.
+ imcn   is done
+
+  warning.   35079.80c lacks gamma-ray production cross sections.
+  warning.   35081.80c lacks gamma-ray production cross sections.
+  warning.   57139.80c lacks gamma-ray production cross sections.
+  warning.   58140.80c lacks gamma-ray production cross sections.
+  warning.  material        5 has been set to a conductor.
+  comment.  setting up hash-based fast table search for xsec tables
+
+ ctm =        0.00   nrn =                 0
+ dump    1 on file output/runtpe/Mix_Mo15_Total_sp.runtpe   nps =           0   coll =                0
+ xact   is done
+
+ cp0 =   0.19
+
+ ctm =     5760.08   nrn =      371510729173
+ dump    2 on file output/runtpe/Mix_Mo15_Total_sp.runtpe   nps =   568586086   coll =      23117779249
+
+ ctm =    11522.30   nrn =      741159392480
+ dump    3 on file output/runtpe/Mix_Mo15_Total_sp.runtpe   nps =  1134355339   coll =      46119953185
+
+ ctm =    17283.83   nrn =     1109889000179
+ dump    4 on file output/runtpe/Mix_Mo15_Total_sp.runtpe   nps =  1698705104   coll =      69064922557
+
+ ctm =    23045.46   nrn =     1482455068910
+ dump    5 on file output/runtpe/Mix_Mo15_Total_sp.runtpe   nps =  2268975892   coll =      92248549116
+
+ ctm =    28806.84   nrn =     1854296602145
+ dump    6 on file output/runtpe/Mix_Mo15_Total_sp.runtpe   nps =  2838108639   coll =     115387241242
+
+ ctm =    34568.24   nrn =     2224291802108
+ dump    7 on file output/runtpe/Mix_Mo15_Total_sp.runtpe   nps =  3404390185   coll =     138411087830
+
+ ctm =    40329.72   nrn =     2591830832266
+ dump    8 on file output/runtpe/Mix_Mo15_Total_sp.runtpe   nps =  3966946136   coll =     161282048648
+
+ ctm =    46090.20   nrn =     2965615226325
+ dump    9 on file output/runtpe/Mix_Mo15_Total_sp.runtpe   nps =  4539041171   coll =     184541575670
+
+ ctm =    51851.87   nrn =     3337387920032
+ dump   10 on file output/runtpe/Mix_Mo15_Total_sp.runtpe   nps =  5108012068   coll =     207675844944
+
+ ctm =    57612.24   nrn =     3703697013861
+ dump   11 on file output/runtpe/Mix_Mo15_Total_sp.runtpe   nps =  5668670511   coll =     230470171087
+
+ ctm =    63377.88   nrn =     4071590150176
+ dump   12 on file output/runtpe/Mix_Mo15_Total_sp.runtpe   nps =  6231816484   coll =     253363338984
+
+ ctm =    69137.94   nrn =     4439822505545
+ dump   13 on file output/runtpe/Mix_Mo15_Total_sp.runtpe   nps =  6795448944   coll =     276277726488
+
+ ctm =    74902.49   nrn =     4814569413476
+ dump   14 on file output/runtpe/Mix_Mo15_Total_sp.runtpe   nps =  7369009520   coll =     299597102147
+
+ ctm =    80665.31   nrn =     5181651889337
+ dump   15 on file output/runtpe/Mix_Mo15_Total_sp.runtpe   nps =  7930880130   coll =     322439747682
+
+ ctm =    86426.37   nrn =     5550070225132
+ dump   16 on file output/runtpe/Mix_Mo15_Total_sp.runtpe   nps =  8494802816   coll =     345365367615
+
+ ctm =    92188.22   nrn =     5916047839656
+ dump   17 on file output/runtpe/Mix_Mo15_Total_sp.runtpe   nps =  9054923757   coll =     368139063272
+
+ ctm =    97948.42   nrn =     6285842282284
+ dump   18 on file output/runtpe/Mix_Mo15_Total_sp.runtpe   nps =  9620929767   coll =     391150114304
+      run terminated when 10000000000  particle histories were done.
+
+ =====>     281.77 M histories/hr    (based on wall-clock time in mcrun)
+
+
+  warning.  random number period exceeded.  decrease stride.
+  warning.  35047 photons from neutron collisions were created below a local photon energy cutoff and were not followed.
+
+ ctm =   101758.68   nrn =     6533506264459
+ dump   19 on file output/runtpe/Mix_Mo15_Total_sp.runtpe   nps = 10000000000   coll =     406561685784
+ mcrun  is done
+
+
+Sat Oct 12 02:04:43 AM CDT 2024
+

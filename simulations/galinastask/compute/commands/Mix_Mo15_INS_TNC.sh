@@ -14,9 +14,9 @@
 ##SBATH -p priority --qos=nsdl
 #SBATCH --time=120:00:00
 
-atlas=false
+atlas=true
 line=Mix_Mo15_INS_TNC
-n_tasks=27
+n_tasks=96
 
 echo ########
 echo 'Running' $line
