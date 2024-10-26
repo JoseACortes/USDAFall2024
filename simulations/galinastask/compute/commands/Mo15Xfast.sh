@@ -16,7 +16,7 @@
 
 atlas=false
 line=Mo15Xfast
-n_tasks=20
+n_tasks=25
 
 echo ########
 echo 'Running' $line
