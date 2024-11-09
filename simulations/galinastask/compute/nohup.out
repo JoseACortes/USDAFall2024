@@ -582,3 +582,65 @@ Starting Mo15Xfast
  xact   is done
 
  cp0 =   0.08
+
+ ctm =     1500.55   nrn =     2385649019194
+ dump    2 on file output/runtpe/Mo15Xfast.runtpe   nps =    12337457   coll =     260142829202
+
+ ctm =     3000.63   nrn =     4771534695526
+ dump    3 on file output/runtpe/Mo15Xfast.runtpe   nps =    24688477   coll =     520310431286
+
+ ctm =     4501.01   nrn =     7156961278955
+ dump    4 on file output/runtpe/Mo15Xfast.runtpe   nps =    37020180   coll =     780424979007
+
+ ctm =     6001.20   nrn =     9542654901710
+ dump    5 on file output/runtpe/Mo15Xfast.runtpe   nps =    49358596   coll =    1040571166028
+
+ ctm =     7501.37   nrn =    11931008617270
+ dump    6 on file output/runtpe/Mo15Xfast.runtpe   nps =    61705095   coll =    1301005973321
+
+ ctm =     9001.84   nrn =    14324547656989
+ dump    7 on file output/runtpe/Mo15Xfast.runtpe   nps =    74078035   coll =    1562003933008
+
+ ctm =    10502.67   nrn =    16719046565205
+ dump    8 on file output/runtpe/Mo15Xfast.runtpe   nps =    86448809   coll =    1823110190607
+
+ ctm =    12002.76   nrn =    19112779166170
+ dump    9 on file output/runtpe/Mo15Xfast.runtpe   nps =    98844602   coll =    2084134531722
+
+ ctm =    13503.16   nrn =    21503942303275
+ dump   10 on file output/runtpe/Mo15Xfast.runtpe   nps =   111211129   coll =    2344879507800
+
+ ctm =    15003.60   nrn =    23892878376182
+ dump   11 on file output/runtpe/Mo15Xfast.runtpe   nps =   123571165   coll =    2605382469346
+
+ ctm =    16503.61   nrn =    26283949308892
+ dump   12 on file output/runtpe/Mo15Xfast.runtpe   nps =   135941528   coll =    2866113720183
+
+ ctm =    18005.50   nrn =    28675295149815
+ dump   13 on file output/runtpe/Mo15Xfast.runtpe   nps =   148300331   coll =    3126875042640
+
+ ctm =    19506.71   nrn =    31067067238650
+ dump   14 on file output/runtpe/Mo15Xfast.runtpe   nps =   160660419   coll =    3387683263105
+
+ ctm =    21006.95   nrn =    33456541510068
+ dump   15 on file output/runtpe/Mo15Xfast.runtpe   nps =   173018452   coll =    3648244309016
+
+ ctm =    22507.11   nrn =    35847415628789
+ dump   16 on file output/runtpe/Mo15Xfast.runtpe   nps =   185388763   coll =    3908950717104
+
+ ctm =    24007.84   nrn =    38234171402020
+ dump   17 on file output/runtpe/Mo15Xfast.runtpe   nps =   197748799   coll =    4169217860372
+      run terminated when   200000000  particle histories were done.
+
+ =====>      12.35 M histories/hr    (based on wall-clock time in mcrun)
+
+
+
+ ctm =    24281.03   nrn =    38669303634922
+ dump   18 on file output/runtpe/Mo15Xfast.runtpe   nps =   200000000   coll =    4216667590730
+ tally data written to file output/mctal/Mo15Xfast.mctal
+ mcrun  is done
+
+
+Sun Oct 27 07:21:12 AM CDT 2024
+
