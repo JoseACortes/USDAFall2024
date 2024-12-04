@@ -1,0 +1,207 @@
+ 
+  comment.  Physics models disabled.
+         1-       runWith2Slices
+         2-       2 0 200 imp:n,p 0
+         3-       101 7 5.08 -21 imp:n,p 1
+         4-       102 7 5.08 -22 imp:n,p 1
+         5-       121 5 11.29 -31 imp:n,p 1
+         6-       122 5 11.29 -32 imp:n,p 1
+         7-       1 12 -0.00129 -200 #101 #102 #121 #122 #4000 #4001 imp:n,p 1
+         8-       4000 2000 -1.05 10010 -10011 10020 -10021 10030 -10031 imp:n,p,e 1
+         9-       4001 2001 -1.05 10010 -10011 10020 -10021 10031 -10032 imp:n,p,e 1
+        10-       
+        11-       21 rcc -10.2 45.5 20.3 20.3 0.0 0.0 4.5
+        12-       22 rcc -10.2 -45.5 20.3 20.3 0.0 0.0 4.5
+        13-       31 rpp -20.3 20.3 7.6 33 2.54 15.2
+        14-       32 rpp -20.3 20.3 -33 -7.6 2.54 15.2
+        15-       200 sph 0 0 0 1500
+        16-       10010 px -45.0
+        17-       10011 px 45.0
+        18-       10020 py -45.0
+        19-       10021 py 45.0
+        20-       10030 pz 48.0
+        21-       10031 pz 70.5
+        22-       10032 pz 93.0
+        23-       
+ imp:e 1 1                                                            
+  fatal error.          2 entries not equal to number of cells =        8.
+        24-       m2000 6000 -0.15 14000 -0.374 8016 -0.4675 1001 -0.0085
+        25-       m2001 6000 -0.25 14000 -0.33 8016 -0.4125 1001 -0.0075
+        26-       m7 35079 -0.2946 35081 -0.3069 57139 -0.3485 58140 -0.05
+        27-       m5 82207 1
+        28-       m12 8016 -0.23 7014 -0.77
+        29-       sdef pos=0 0 0 erg=14
+        30-       si1 -1 0.93 1
+        31-       sp1 0 0 1
+        32-       F16:e (101 102)
+        33-       F18:p (101 102)
+ 
+  warning.  f8 tally unreliable since neutron transport nonanalog.
+        34-       e18 0 1e-5 932i 8.4295
+        35-       T18 50 1e5
+        36-       FT18 phl 1 16 1 0
+        37-       F26:e (101 102)
+        38-       F28:p (101 102)
+ 
+  warning.  f8 tally unreliable since neutron transport nonanalog.
+        39-       e28 0 1e-5 932i 8.4295
+        40-       T28 50 1e5
+        41-       FT28 phl 1 26 1 0 tmc 0 50
+        42-       F36:e (101 102)
+        43-       F38:p (101 102)
+ 
+  warning.  f8 tally unreliable since neutron transport nonanalog.
+        44-       e38 0 1e-5 932i 8.4295
+        45-       T38 0 150i 150
+        46-       FT38 phl 1 36 1 0
+        47-       F46:e (101 102)
+        48-       F48:p (101 102)
+ 
+  warning.  f8 tally unreliable since neutron transport nonanalog.
+        49-       e48 0 1e-5 932i 8.4295
+        50-       T48 0 150i 150
+        51-       FT48 phl 1 46 1 0 tmc 0 50
+        52-       F56:e (101 102)
+        53-       F58:p (101 102)
+ 
+  warning.  f8 tally unreliable since neutron transport nonanalog.
+        54-       e58 0 1e-5 932i 8.4295
+        55-       T58 50 1e5
+        56-       FT58 phl 1 56 1 0 geb -0.026198 0.059551 -0.037176
+        57-       F66:e (101 102)
+        58-       F68:p (101 102)
+ 
+  warning.  f8 tally unreliable since neutron transport nonanalog.
+        59-       e68 0 1e-5 932i 8.4295
+        60-       T68 50 1e5
+        61-       FT68 phl 1 66 1 0 geb -0.026198 0.059551 -0.037176 tmc 0 50
+        62-       F76:e (101 102)
+        63-       F78:p (101 102)
+ 
+  warning.  f8 tally unreliable since neutron transport nonanalog.
+        64-       e78 0 1e-5 932i 8.4295
+        65-       T78 0 150i 150
+        66-       FT78 phl 1 76 1 0 geb -0.026198 0.059551 -0.037176
+        67-       F86:e (101 102)
+        68-       F88:p (101 102)
+ 
+  warning.  f8 tally unreliable since neutron transport nonanalog.
+        69-       e88 0 1e-5 932i 8.4295
+        70-       T88 0 150i 150
+        71-       FT88 phl 1 86 1 0 geb -0.026198 0.059551 -0.037176 tmc 0 50
+        72-       prdmp -60 -60 -1
+        73-       nps 1000000
+        74-       rand seed = 1337
+        75-       mode n p e
+  comment.  photonuclear physics may be needed (phys:p).
+        76-       phys:n 1j 14
+        77-       phys:p
+        78-       phys:e
+
+ ***************************************************
+ * Random Number Generator  =                    1 *
+ * Random Number Seed       =                 1337 *
+ * Random Number Multiplier =       19073486328125 *
+ * Random Number Adder      =                    0 *
+ * Random Number Bits Used  =                   48 *
+ * Random Number Stride     =               152917 *
+ ***************************************************
+
+ 
+  comment.  total nubar used if fissionable isotopes are present.
+ 
+  warning.  zero electron importance within non-void cell      102.
+ 
+  warning.  zero electron importance within non-void cell      121.
+ 
+  warning.  zero electron importance within non-void cell      122.
+ 
+  warning.  zero electron importance within non-void cell        1.
+ 
+  warning.  zero electron importance within non-void cell     4000.
+ 
+  warning.  zero electron importance within non-void cell     4001.
+
+ surface       21.2 and surface       22.2 are the same.       22.2 will be deleted.
+
+ surface       21.3 and surface       22.3 are the same.       22.3 will be deleted.
+
+ surface       31.1 and surface       32.1 are the same.       32.1 will be deleted.
+
+ surface       31.2 and surface       32.2 are the same.       32.2 will be deleted.
+
+ surface       31.5 and surface       32.5 are the same.       32.5 will be deleted.
+
+ surface       31.6 and surface       32.6 are the same.       32.6 will be deleted.
+ 
+  comment.           6 surfaces were deleted for being the same as others.
+ 
+  warning.  source distribution        1 is not used in this problem.
+ 
+  warning.  last time bin of tally       18 is less than time cutoff.
+ 
+  warning.  last time bin of tally       28 is less than time cutoff.
+ 
+  warning.  last time bin of tally       38 is less than time cutoff.
+ 
+  warning.  last time bin of tally       48 is less than time cutoff.
+ 
+  warning.  last time bin of tally       58 is less than time cutoff.
+ 
+  warning.  last time bin of tally       68 is less than time cutoff.
+ 
+  warning.  last time bin of tally       78 is less than time cutoff.
+ 
+  warning.  last time bin of tally       88 is less than time cutoff.
+ 
+  warning.  no de/df for tally 16 referenced on FT PHL.
+ 
+  warning.  no de/df for tally 26 referenced on FT PHL.
+ 
+  warning.  no de/df for tally 36 referenced on FT PHL.
+ 
+  warning.  no de/df for tally 46 referenced on FT PHL.
+ 
+  warning.  no de/df for tally 56 referenced on FT PHL.
+ 
+  warning.  no de/df for tally 66 referenced on FT PHL.
+ 
+  warning.  no de/df for tally 76 referenced on FT PHL.
+ 
+  warning.  no de/df for tally 86 referenced on FT PHL.
+ 
+  warning.    4 cell densities are greater than 40 gram/cc.
+ 
+  fatal error.      1 cells have zero n. and non-zero e. importance.
+ 
+  warning.  p. and e. importances are inconsistent in    7 cells.
+1cells                                                                                                  print table 60
+
+                               atom        gram                                            neutron    photon     electron   photon wt  
+              cell      mat   density     density     volume       mass            pieces importance importance importance generation  
+
+        1        2        0  0.00000E+00 0.00000E+00 0.00000E+00 0.00000E+00           0  0.0000E+00 0.0000E+00 1.0000E+00 -1.000E+00  
+        2      101        7  5.08000E+00 8.11743E+02 1.29143E+03 1.04831E+06           1  1.0000E+00 1.0000E+00 1.0000E+00 -1.000E+00  
+        3      102        7  5.08000E+00 8.11743E+02 1.29143E+03 1.04831E+06           1  1.0000E+00 1.0000E+00 0.0000E+00 -1.000E+00  
+        4      121        5  1.12900E+01 3.88034E+03 1.30555E+04 5.06598E+07           0  1.0000E+00 1.0000E+00 0.0000E+00 -1.000E+00  
+        5      122        5  1.12900E+01 3.88034E+03 1.30555E+04 5.06598E+07           0  1.0000E+00 1.0000E+00 0.0000E+00 -1.000E+00  
+        6        1       12  5.38877E-05 1.29000E-03 0.00000E+00 0.00000E+00           0  1.0000E+00 1.0000E+00 0.0000E+00 -1.000E+00  
+        7     4000     2000  4.01311E-02 1.05000E+00 1.82250E+05 1.91362E+05           0  1.0000E+00 1.0000E+00 0.0000E+00 -1.000E+00  
+        8     4001     2001  4.16033E-02 1.05000E+00 1.82250E+05 1.91362E+05           0  1.0000E+00 1.0000E+00 0.0000E+00 -1.000E+00  
+
+ total                                               3.93194E+05 1.03799E+08
+
+    minimum source weight = 1.0000E+00    maximum source weight = 1.0000E+00
+ 
+  comment.  unresolved resonances with variance reduction with f8 tally.
+ 
+  warning.  Force analog capture for pulse height tallies
+  warning.  Pulse-height tally variance reduction forced off. F8 tallies not reliable.
+
+        35 warning messages so far.
+
+         2 fatal errors so far.
+
+        35 warning messages so far.
+
+         2 fatal errors so far.
