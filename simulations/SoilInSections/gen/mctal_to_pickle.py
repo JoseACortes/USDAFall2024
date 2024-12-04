@@ -5,8 +5,9 @@ import numpy as np
 import pandas as pd
 from tqdm import tqdm
 
-mctal_file = '../compute/output/mctal/Mo15Xfast.mctal'
-filenames = [mctal_file]
+filenames = pd.read_csv('inp/filenames.csv')
+filenames = filenames['name']
+filenames = [f'../compute/output/mctal/{filename}.mctal' for filename in filenames]
 out_data_folder = '../data/'
 
 spectrograms = []
