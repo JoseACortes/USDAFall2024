@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#SBATCH --job-name=@name@
+#SBATCH --job-name=runWith100Slices
 #SBATCH --account=auburn-mins
 ##SBATCH -p medium
 ##SBATCH --account=scinet
@@ -15,7 +15,7 @@
 #SBATCH --time=200:00:00
 
 atlas=true
-line=@name@
+line=runWith100Slices
 n_tasks=90
 
 echo ########

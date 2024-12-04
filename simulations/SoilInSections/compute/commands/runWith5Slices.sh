@@ -14,9 +14,9 @@
 ##SBATH -p priority --qos=nsdl
 #SBATCH --time=200:00:00
 
-atlas=false
+atlas=true
 line=runWith5Slices
-n_tasks=20
+n_tasks=90
 
 echo ########
 echo 'Running' $line
@@ -35,6 +35,8 @@ ptrac=output/ptrac/$line.ptrac
 rm $outp $mctal $runtpe #$ptrac
 echo 'Starting' $line
 
+start_time=$(date +%s)
+
 if [ $atlas = true ]; then
     module load apptainer 
     apptainer exec --pem-path=/home/jose.cortes/.ssh/mkey-pub.pem /apps/licensed/mcnp/mcnp-encrypted.sif mcnp6 r i=$input_file o=$outp mctal=$mctal ru=$runtpe notek tasks $n_tasks
@@ -42,6 +44,10 @@ else
     mcnp6 r i=$input_file o=$outp mctal=$mctal ru=$runtpe notek tasks $n_tasks
 fi
 
+end_time=$(date +%s)
+## diagnostics
+# write the simulation time to a file
+echo $line $(($end_time - $start_time)) >> output/sim_times.txt
 echo ''
 date
 echo ''
