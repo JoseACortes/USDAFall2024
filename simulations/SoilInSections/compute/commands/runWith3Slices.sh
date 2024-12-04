@@ -14,9 +14,9 @@
 ##SBATH -p priority --qos=nsdl
 #SBATCH --time=200:00:00
 
-atlas=true
+atlas=false
 line=runWith3Slices
-n_tasks=96
+n_tasks=20
 
 echo ########
 echo 'Running' $line

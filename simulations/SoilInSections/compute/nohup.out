@@ -1,0 +1,56 @@
+
+Running runWith1Slices
+
+
+Wed Dec  4 02:39:58 PM CST 2024
+rm: cannot remove 'output/mctal/runWith1Slices.mctal': No such file or directory
+Starting runWith1Slices
+ mcnp     ver=6    , ld=02/20/18  12/04/24 14:39:58                   
+          Code Name & Version = MCNP_6.20, 6.2.0
+          Copyright LANS/LANL/DOE - see output file
+  
+     _/      _/        _/_/_/       _/      _/       _/_/_/         _/_/_/ 
+    _/_/  _/_/      _/             _/_/    _/       _/    _/     _/        
+   _/  _/  _/      _/             _/  _/  _/       _/_/_/       _/_/_/     
+  _/      _/      _/             _/    _/_/       _/           _/    _/    
+ _/      _/        _/_/_/       _/      _/       _/             _/_/       
+  
+  comment.  Physics models disabled.
+ 
+  warning.  f8 tally unreliable since neutron transport nonanalog.
+  warning.  f8 tally unreliable since neutron transport nonanalog.
+  warning.  f8 tally unreliable since neutron transport nonanalog.
+  warning.  f8 tally unreliable since neutron transport nonanalog.
+  warning.  f8 tally unreliable since neutron transport nonanalog.
+  warning.  f8 tally unreliable since neutron transport nonanalog.
+  warning.  f8 tally unreliable since neutron transport nonanalog.
+  warning.  f8 tally unreliable since neutron transport nonanalog.
+ mode n p e                                                           
+  comment.  photonuclear physics may be needed (phys:p).
+ comment. using random number generator  1, initial seed = 1337                
+ 
+  comment.  total nubar used if fissionable isotopes are present.
+  comment.  electron importances have been set equal to 1.
+  comment.           6 surfaces were deleted for being the same as others.
+  warning.  source distribution        1 is not used in this problem.
+  warning.  last time bin of tally       18 is less than time cutoff.
+  warning.  last time bin of tally       28 is less than time cutoff.
+  warning.  last time bin of tally       38 is less than time cutoff.
+  warning.  last time bin of tally       48 is less than time cutoff.
+  warning.  last time bin of tally       58 is less than time cutoff.
+  warning.  last time bin of tally       68 is less than time cutoff.
+  warning.  last time bin of tally       78 is less than time cutoff.
+  warning.  last time bin of tally       88 is less than time cutoff.
+  warning.  no de/df for tally 16 referenced on FT PHL.
+  warning.  no de/df for tally 26 referenced on FT PHL.
+  warning.  no de/df for tally 36 referenced on FT PHL.
+ additional error messages on file output/outp/runWith1Slices.outp
+ imcn   is done
+
+  comment.  setting up hash-based fast table search for xsec tables
+
+ ctm =        0.00   nrn =                 0
+ dump    1 on file output/runtpe/runWith1Slices.runtpe   nps =           0   coll =                0
+ xact   is done
+
+ cp0 =   0.07
