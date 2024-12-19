@@ -14,9 +14,10 @@
 ##SBATH -p priority --qos=nsdl
 #SBATCH --time=200:00:00
 
-atlas=true
+atlas=false
 line=runWith100Slices
-n_tasks=90
+n_tasks=27
+continue=true
 
 echo ########
 echo 'Running' $line
@@ -31,23 +32,32 @@ runtpe=output/runtpe/$line.runtpe
 mctal=output/mctal/$line.mctal
 ptrac=output/ptrac/$line.ptrac
 
+if [ $continue = false ]; then
+    rm $outp $mctal $runtpe #$ptrac
+else
+    rm $outp $mctal
+fi
 
-rm $outp $mctal $runtpe #$ptrac
 echo 'Starting' $line
 
 start_time=$(date +%s)
 
-if [ $atlas = true ]; then
+if [ $atlas = true ]; then 
     module load apptainer 
-    apptainer exec --pem-path=/home/jose.cortes/.ssh/mkey-pub.pem /apps/licensed/mcnp/mcnp-encrypted.sif mcnp6 r i=$input_file o=$outp mctal=$mctal ru=$runtpe notek tasks $n_tasks
+    if [ $continue = false ]; then
+        apptainer exec --pem-path=/home/jose.cortes/.ssh/mkey-pub.pem /apps/licensed/mcnp/mcnp-encrypted.sif mcnp6 r i=$input_file o=$outp mctal=$mctal ru=$runtpe notek tasks $n_tasks
+    else
+        apptainer exec --pem-path=/home/jose.cortes/.ssh/mkey-pub.pem /apps/licensed/mcnp/mcnp-encrypted.sif mcnp6 c i=$input_file o=$outp mctal=$mctal ru=$runtpe notek tasks $n_tasks
+    fi
 else
-    mcnp6 r i=$input_file o=$outp mctal=$mctal ru=$runtpe notek tasks $n_tasks
+    if [ $continue = false ]; then
+        mcnp6 r i=$input_file o=$outp mctal=$mctal ru=$runtpe notek tasks $n_tasks
+    else
+        mcnp6 c i=$input_file o=$outp mctal=$mctal ru=$runtpe notek tasks $n_tasks
+    fi
 fi
 
 end_time=$(date +%s)
 ## diagnostics
 # write the simulation time to a file
-echo $line $(($end_time - $start_time)) >> output/sim_times.txt
-echo ''
-date
-echo ''
+echo $line $(($end_time - $start_time))

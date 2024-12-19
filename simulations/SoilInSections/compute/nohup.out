@@ -348,3 +348,287 @@ Starting runWith10Slices
 
 Wed Dec  4 03:04:47 PM CST 2024
 
+
+Running runWith1Slices
+
+
+Tue Dec 17 09:16:42 PM CST 2024
+rm: cannot remove 'output/mctal/runWith1Slices.mctal': No such file or directory
+Starting runWith1Slices
+ mcnp     ver=6    , ld=02/20/18  12/17/24 21:16:42                   
+          Code Name & Version = MCNP_6.20, 6.2.0
+          Copyright LANS/LANL/DOE - see output file
+  
+     _/      _/        _/_/_/       _/      _/       _/_/_/         _/_/_/ 
+    _/_/  _/_/      _/             _/_/    _/       _/    _/     _/        
+   _/  _/  _/      _/             _/  _/  _/       _/_/_/       _/_/_/     
+  _/      _/      _/             _/    _/_/       _/           _/    _/    
+ _/      _/        _/_/_/       _/      _/       _/             _/_/       
+  
+ probid =  12/04/24 17:22:26 
+ comment. using random number generator  1, initial seed = 1337                
+ imcn   is done
+
+ cp0 =   0.05
+
+ ctm =   574150.56   nrn =   176729689367858
+ dump  108 on file output/runtpe/runWith1Slices.runtpe   nps =   995290924   coll =   19113166242250
+      run terminated when  1000000000  particle histories were done.
+
+ =====>      13.71 M histories/hr    (based on wall-clock time in mcrun)
+
+
+
+ ctm =   574707.28   nrn =   177566994840553
+ dump  109 on file output/runtpe/runWith1Slices.runtpe   nps =  1000000000   coll =   19203718983116
+ tally data written to file output/mctal/runWith1Slices.mctal
+ mcrun  is done
+
+runWith1Slices 4840
+
+Running runWith2Slices
+
+
+Tue Dec 17 10:41:40 PM CST 2024
+rm: cannot remove 'output/mctal/runWith2Slices.mctal': No such file or directory
+Starting runWith2Slices
+ mcnp     ver=6    , ld=02/20/18  12/17/24 22:41:40                   
+ Expire parameter is 
+ no continue card in file input/runWith2Slices.inp                              
+                                                                                
+                                                                                
+                                             
+
+ bad trouble in subroutine exemes of mcnp                             
+
+ no continue card in file input/runWith2Slices.inp
+runWith2Slices 0
+
+Running runWith3Slices
+
+
+Tue Dec 17 10:41:40 PM CST 2024
+rm: cannot remove 'output/mctal/runWith3Slices.mctal': No such file or directory
+Starting runWith3Slices
+ mcnp     ver=6    , ld=02/20/18  12/17/24 22:41:40                   
+ Expire parameter is 
+ no continue card in file input/runWith3Slices.inp                              
+                                                                                
+                                                                                
+                                             
+
+ bad trouble in subroutine exemes of mcnp                             
+
+ no continue card in file input/runWith3Slices.inp
+runWith3Slices 0
+
+Running runWith5Slices
+
+
+Tue Dec 17 10:41:40 PM CST 2024
+rm: cannot remove 'output/mctal/runWith5Slices.mctal': No such file or directory
+Starting runWith5Slices
+ mcnp     ver=6    , ld=02/20/18  12/17/24 22:41:40                   
+ Expire parameter is 
+ no continue card in file input/runWith5Slices.inp                              
+                                                                                
+                                                                                
+                                             
+
+ bad trouble in subroutine exemes of mcnp                             
+
+ no continue card in file input/runWith5Slices.inp
+runWith5Slices 0
+
+Running runWith10Slices
+
+
+Tue Dec 17 10:41:40 PM CST 2024
+rm: cannot remove 'output/mctal/runWith10Slices.mctal': No such file or directory
+Starting runWith10Slices
+ mcnp     ver=6    , ld=02/20/18  12/17/24 22:41:40                   
+ Expire parameter is 
+ no continue card in file input/runWith10Slices.inp                             
+                                                                                
+                                                                                
+                                             
+
+ bad trouble in subroutine exemes of mcnp                             
+
+ no continue card in file input/runWith10Slices.inp
+runWith10Slices 0
+
+Running runWith100Slices
+
+
+Tue Dec 17 10:41:40 PM CST 2024
+rm: cannot remove 'output/outp/runWith100Slices.outp': No such file or directory
+rm: cannot remove 'output/mctal/runWith100Slices.mctal': No such file or directory
+Starting runWith100Slices
+ mcnp     ver=6    , ld=02/20/18  12/17/24 22:41:40                   
+1 12 -0.00129 -200 #101 #102 #121 #122 #40000 #40001 #40002 #40003 #40004 #40005 #40006 #40007 #40008 #40009 #40010 #40011 #40012 #4
+ Expire parameter is input file data beyond column 128.
+
+ bad trouble in subroutine exemes of mcnp                             
+
+ input file data beyond column 128.
+runWith100Slices 0
+
+Running runWith2Slices
+
+
+Tue Dec 17 10:42:47 PM CST 2024
+rm: cannot remove 'output/outp/runWith2Slices.outp': No such file or directory
+rm: cannot remove 'output/mctal/runWith2Slices.mctal': No such file or directory
+Starting runWith2Slices
+ mcnp     ver=6    , ld=02/20/18  12/17/24 22:42:47                   
+          Code Name & Version = MCNP_6.20, 6.2.0
+          Copyright LANS/LANL/DOE - see output file
+  
+     _/      _/        _/_/_/       _/      _/       _/_/_/         _/_/_/ 
+    _/_/  _/_/      _/             _/_/    _/       _/    _/     _/        
+   _/  _/  _/      _/             _/  _/  _/       _/_/_/       _/_/_/     
+  _/      _/      _/             _/    _/_/       _/           _/    _/    
+ _/      _/        _/_/_/       _/      _/       _/             _/_/       
+  
+ probid =  12/04/24 17:22:26 
+ comment. using random number generator  1, initial seed = 1337                
+ imcn   is done
+
+ cp0 =   0.04
+      run terminated when  1000000000  particle histories were done.
+
+ =====>      13.58 M histories/hr    (based on wall-clock time in mcrun)
+
+
+
+ ctm =   573454.57   nrn =   177752227533138
+ dump  108 on file output/runtpe/runWith2Slices.runtpe   nps =  1000000000   coll =   19224920707699
+ tally data written to file output/mctal/runWith2Slices.mctal
+ mcrun  is done
+
+runWith2Slices 2010
+
+Running runWith3Slices
+
+
+Tue Dec 17 11:16:17 PM CST 2024
+rm: cannot remove 'output/outp/runWith3Slices.outp': No such file or directory
+rm: cannot remove 'output/mctal/runWith3Slices.mctal': No such file or directory
+Starting runWith3Slices
+ mcnp     ver=6    , ld=02/20/18  12/17/24 23:16:17                   
+          Code Name & Version = MCNP_6.20, 6.2.0
+          Copyright LANS/LANL/DOE - see output file
+  
+     _/      _/        _/_/_/       _/      _/       _/_/_/         _/_/_/ 
+    _/_/  _/_/      _/             _/_/    _/       _/    _/     _/        
+   _/  _/  _/      _/             _/  _/  _/       _/_/_/       _/_/_/     
+  _/      _/      _/             _/    _/_/       _/           _/    _/    
+ _/      _/        _/_/_/       _/      _/       _/             _/_/       
+  
+ probid =  12/04/24 17:22:26 
+ comment. using random number generator  1, initial seed = 1337                
+ imcn   is done
+
+ cp0 =   0.05
+      run terminated when  1000000000  particle histories were done.
+
+ =====>      13.59 M histories/hr    (based on wall-clock time in mcrun)
+
+
+
+ ctm =   574132.57   nrn =   177805339514665
+ dump  108 on file output/runtpe/runWith3Slices.runtpe   nps =  1000000000   coll =   19230973044678
+ tally data written to file output/mctal/runWith3Slices.mctal
+ mcrun  is done
+
+runWith3Slices 3517
+
+Running runWith5Slices
+
+
+Wed Dec 18 12:14:54 AM CST 2024
+rm: cannot remove 'output/outp/runWith5Slices.outp': No such file or directory
+rm: cannot remove 'output/mctal/runWith5Slices.mctal': No such file or directory
+Starting runWith5Slices
+ mcnp     ver=6    , ld=02/20/18  12/18/24 00:14:54                   
+          Code Name & Version = MCNP_6.20, 6.2.0
+          Copyright LANS/LANL/DOE - see output file
+  
+     _/      _/        _/_/_/       _/      _/       _/_/_/         _/_/_/ 
+    _/_/  _/_/      _/             _/_/    _/       _/    _/     _/        
+   _/  _/  _/      _/             _/  _/  _/       _/_/_/       _/_/_/     
+  _/      _/      _/             _/    _/_/       _/           _/    _/    
+ _/      _/        _/_/_/       _/      _/       _/             _/_/       
+  
+ probid =  12/04/24 17:22:26 
+ comment. using random number generator  1, initial seed = 1337                
+ imcn   is done
+
+ cp0 =   0.05
+
+ ctm =   574198.13   nrn =   176130108139801
+ dump  108 on file output/runtpe/runWith5Slices.runtpe   nps =   990363316   coll =   19049985625168
+      run terminated when  1000000000  particle histories were done.
+
+ =====>      13.82 M histories/hr    (based on wall-clock time in mcrun)
+
+
+
+ ctm =   575327.44   nrn =   177844683910045
+ dump  109 on file output/runtpe/runWith5Slices.runtpe   nps =  1000000000   coll =   19235431845640
+ tally data written to file output/mctal/runWith5Slices.mctal
+ mcrun  is done
+
+runWith5Slices 6113
+
+Running runWith10Slices
+
+
+Wed Dec 18 01:56:47 AM CST 2024
+rm: cannot remove 'output/outp/runWith10Slices.outp': No such file or directory
+rm: cannot remove 'output/mctal/runWith10Slices.mctal': No such file or directory
+Starting runWith10Slices
+ mcnp     ver=6    , ld=02/20/18  12/18/24 01:56:47                   
+          Code Name & Version = MCNP_6.20, 6.2.0
+          Copyright LANS/LANL/DOE - see output file
+  
+     _/      _/        _/_/_/       _/      _/       _/_/_/         _/_/_/ 
+    _/_/  _/_/      _/             _/_/    _/       _/    _/     _/        
+   _/  _/  _/      _/             _/  _/  _/       _/_/_/       _/_/_/     
+  _/      _/      _/             _/    _/_/       _/           _/    _/    
+ _/      _/        _/_/_/       _/      _/       _/             _/_/       
+  
+ probid =  12/04/24 17:22:26 
+ comment. using random number generator  1, initial seed = 1337                
+ imcn   is done
+
+ cp0 =   0.05
+      run terminated when  1000000000  particle histories were done.
+
+ =====>      13.63 M histories/hr    (based on wall-clock time in mcrun)
+
+
+
+ ctm =   573064.55   nrn =   177871849796611
+ dump  108 on file output/runtpe/runWith10Slices.runtpe   nps =  1000000000   coll =   19238447280937
+ tally data written to file output/mctal/runWith10Slices.mctal
+ mcrun  is done
+
+runWith10Slices 1078
+
+Running runWith100Slices
+
+
+Wed Dec 18 02:14:45 AM CST 2024
+rm: cannot remove 'output/outp/runWith100Slices.outp': No such file or directory
+rm: cannot remove 'output/mctal/runWith100Slices.mctal': No such file or directory
+Starting runWith100Slices
+ mcnp     ver=6    , ld=02/20/18  12/18/24 02:14:46                   
+1 12 -0.00129 -200 #101 #102 #121 #122 #40000 #40001 #40002 #40003 #40004 #40005 #40006 #40007 #40008 #40009 #40010 #40011 #40012 #4
+ Expire parameter is input file data beyond column 128.
+
+ bad trouble in subroutine exemes of mcnp                             
+
+ input file data beyond column 128.
+runWith100Slices 0

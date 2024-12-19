@@ -187,5 +187,6 @@ def make_mcnp(
         cell_id = f'{cell_header}{force_n_digits(i, nn)}{cell_footer}'
         cell_ids.append(cell_id)
         cells += f'{cell_id} {e} {density} {xx_index[i]} -{xxl_index[i]} {yy_index[i]} -{yyl_index[i]} {zz_index[i]} -{zzl_index[i]} imp:n,p 1\n'
-        
-    return cells, cell_ids, surfaces, mats
+    
+    edge_index = [xx_index[0], xxl_index[-1], yy_index[0], yyl_index[-1], zz_index[0], zzl_index[-1]]
+    return cells, edge_index, surfaces, mats
