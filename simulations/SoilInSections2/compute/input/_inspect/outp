@@ -1,0 +1,219 @@
+ 
+  comment.  Physics models disabled.
+         1-       runWith10Slices
+         2-       2 0 200 imp:n,p 0
+         3-       101 7 5.08 -21 imp:n,p 1
+         4-       102 7 5.08 -22 imp:n,p 1
+         5-       121 5 11.29 -31 imp:n,p 1
+         6-       122 5 11.29 -32 imp:n,p 1
+         7-       1 12 -0.00129 -200 #101 #102 #121 #122 #(100100 -100101 100200 -100201 100300 -100310) imp:n,p 1
+         8-       4000 2000 -1.05 100100 -100101 100200 -100201 100300 -100301 imp:n,p 1
+         9-       4001 2001 -1.05 100100 -100101 100200 -100201 100301 -100302 imp:n,p 1
+        10-       4002 2002 -1.05 100100 -100101 100200 -100201 100302 -100303 imp:n,p 1
+        11-       4003 2003 -1.05 100100 -100101 100200 -100201 100303 -100304 imp:n,p 1
+        12-       4004 2004 -1.05 100100 -100101 100200 -100201 100304 -100305 imp:n,p 1
+        13-       4005 2005 -1.05 100100 -100101 100200 -100201 100305 -100306 imp:n,p 1
+        14-       4006 2006 -1.05 100100 -100101 100200 -100201 100306 -100307 imp:n,p 1
+        15-       4007 2007 -1.05 100100 -100101 100200 -100201 100307 -100308 imp:n,p 1
+        16-       4008 2008 -1.05 100100 -100101 100200 -100201 100308 -100309 imp:n,p 1
+        17-       4009 2009 -1.05 100100 -100101 100200 -100201 100309 -100310 imp:n,p 1
+        18-       
+        19-       21 rcc -10.2 45.5 20.3 20.3 0.0 0.0 4.5
+        20-       22 rcc -10.2 -45.5 20.3 20.3 0.0 0.0 4.5
+        21-       31 rpp -20.3 20.3 7.6 33 2.54 15.2
+        22-       32 rpp -20.3 20.3 -33 -7.6 2.54 15.2
+        23-       200 sph 0 0 0 1500
+        24-       100100 px -45.0
+        25-       100101 px 45.0
+        26-       100200 py -45.0
+        27-       100201 py 45.0
+        28-       100300 pz 48.0
+        29-       100301 pz 52.5
+        30-       100302 pz 57.0
+        31-       100303 pz 61.5
+        32-       100304 pz 66.0
+        33-       100305 pz 70.5
+        34-       100306 pz 75.0
+        35-       100307 pz 79.5
+        36-       100308 pz 84.0
+        37-       100309 pz 88.5
+        38-       100310 pz 93.0
+        39-       
+        40-       m2000 6000 -0.07 14000 -0.4092 8016 -0.5115 1001 -0.0093
+        41-       m2001 6000 -0.09 14000 -0.4004 8016 -0.5005 1001 -0.0091
+        42-       m2002 6000 -0.11 14000 -0.3916 8016 -0.4895 1001 -0.0089
+        43-       m2003 6000 -0.13 14000 -0.3828 8016 -0.4785 1001 -0.0087
+        44-       m2004 6000 -0.15 14000 -0.374 8016 -0.4675 1001 -0.0085
+        45-       m2005 6000 -0.17 14000 -0.3652 8016 -0.4565 1001 -0.0083
+        46-       m2006 6000 -0.19 14000 -0.3564 8016 -0.4455 1001 -0.0081
+        47-       m2007 6000 -0.21 14000 -0.3476 8016 -0.4345 1001 -0.0079
+        48-       m2008 6000 -0.23 14000 -0.3388 8016 -0.4235 1001 -0.0077
+        49-       m2009 6000 -0.25 14000 -0.33 8016 -0.4125 1001 -0.0075
+        50-       m7 35079 -0.2946 35081 -0.3069 57139 -0.3485 58140 -0.05
+        51-       m5 82207 1
+        52-       m12 8016 -0.23 7014 -0.77
+        53-       sdef pos=0 0 0 erg=14
+        54-       si1 -1 0.93 1
+        55-       sp1 0 0 1
+        56-       F16:e (101 102)
+        57-       F18:p (101 102)
+ 
+  warning.  f8 tally unreliable since neutron transport nonanalog.
+        58-       e18 0 1e-5 932i 8.4295
+        59-       T18 50 1e5
+        60-       FT18 phl 1 16 1 0
+        61-       F26:e (101 102)
+        62-       F28:p (101 102)
+ 
+  warning.  f8 tally unreliable since neutron transport nonanalog.
+        63-       e28 0 1e-5 932i 8.4295
+        64-       T28 50 1e5
+        65-       FT28 phl 1 26 1 0 tmc 0 50
+        66-       F36:e (101 102)
+        67-       F38:p (101 102)
+ 
+  warning.  f8 tally unreliable since neutron transport nonanalog.
+        68-       e38 0 1e-5 932i 8.4295
+        69-       T38 0 150i 150
+        70-       FT38 phl 1 36 1 0
+        71-       F46:e (101 102)
+        72-       F48:p (101 102)
+ 
+  warning.  f8 tally unreliable since neutron transport nonanalog.
+        73-       e48 0 1e-5 932i 8.4295
+        74-       T48 0 150i 150
+        75-       FT48 phl 1 46 1 0 tmc 0 50
+        76-       F56:e (101 102)
+        77-       F58:p (101 102)
+ 
+  warning.  f8 tally unreliable since neutron transport nonanalog.
+        78-       e58 0 1e-5 932i 8.4295
+        79-       T58 50 1e5
+        80-       FT58 phl 1 56 1 0 geb -0.026198 0.059551 -0.037176
+        81-       F66:e (101 102)
+        82-       F68:p (101 102)
+ 
+  warning.  f8 tally unreliable since neutron transport nonanalog.
+        83-       e68 0 1e-5 932i 8.4295
+        84-       T68 50 1e5
+        85-       FT68 phl 1 66 1 0 geb -0.026198 0.059551 -0.037176 tmc 0 50
+        86-       F76:e (101 102)
+        87-       F78:p (101 102)
+ 
+  warning.  f8 tally unreliable since neutron transport nonanalog.
+        88-       e78 0 1e-5 932i 8.4295
+        89-       T78 0 150i 150
+        90-       FT78 phl 1 76 1 0 geb -0.026198 0.059551 -0.037176
+        91-       F86:e (101 102)
+        92-       F88:p (101 102)
+ 
+  warning.  f8 tally unreliable since neutron transport nonanalog.
+        93-       e88 0 1e-5 932i 8.4295
+        94-       T88 0 150i 150
+        95-       FT88 phl 1 86 1 0 geb -0.026198 0.059551 -0.037176 tmc 0 50
+        96-       prdmp -60 -60 -1
+        97-       nps 1000000000
+        98-       rand seed = 1337
+        99-       mode n p e
+  comment.  photonuclear physics may be needed (phys:p).
+       100-       phys:n 1j 14
+       101-       phys:p
+       102-       phys:e
+
+ ***************************************************
+ * Random Number Generator  =                    1 *
+ * Random Number Seed       =                 1337 *
+ * Random Number Multiplier =       19073486328125 *
+ * Random Number Adder      =                    0 *
+ * Random Number Bits Used  =                   48 *
+ * Random Number Stride     =               152917 *
+ ***************************************************
+
+ 
+  comment.  total nubar used if fissionable isotopes are present.
+ 
+  comment.  electron importances have been set equal to 1.
+
+ surface       21.2 and surface       22.2 are the same.       22.2 will be deleted.
+
+ surface       21.3 and surface       22.3 are the same.       22.3 will be deleted.
+
+ surface       31.1 and surface       32.1 are the same.       32.1 will be deleted.
+
+ surface       31.2 and surface       32.2 are the same.       32.2 will be deleted.
+
+ surface       31.5 and surface       32.5 are the same.       32.5 will be deleted.
+
+ surface       31.6 and surface       32.6 are the same.       32.6 will be deleted.
+ 
+  comment.           6 surfaces were deleted for being the same as others.
+ 
+  warning.  source distribution        1 is not used in this problem.
+ 
+  warning.  last time bin of tally       18 is less than time cutoff.
+ 
+  warning.  last time bin of tally       28 is less than time cutoff.
+ 
+  warning.  last time bin of tally       38 is less than time cutoff.
+ 
+  warning.  last time bin of tally       48 is less than time cutoff.
+ 
+  warning.  last time bin of tally       58 is less than time cutoff.
+ 
+  warning.  last time bin of tally       68 is less than time cutoff.
+ 
+  warning.  last time bin of tally       78 is less than time cutoff.
+ 
+  warning.  last time bin of tally       88 is less than time cutoff.
+ 
+  warning.  no de/df for tally 16 referenced on FT PHL.
+ 
+  warning.  no de/df for tally 26 referenced on FT PHL.
+ 
+  warning.  no de/df for tally 36 referenced on FT PHL.
+ 
+  warning.  no de/df for tally 46 referenced on FT PHL.
+ 
+  warning.  no de/df for tally 56 referenced on FT PHL.
+ 
+  warning.  no de/df for tally 66 referenced on FT PHL.
+ 
+  warning.  no de/df for tally 76 referenced on FT PHL.
+ 
+  warning.  no de/df for tally 86 referenced on FT PHL.
+ 
+  warning.    4 cell densities are greater than 40 gram/cc.
+1cells                                                                                                  print table 60
+
+                               atom        gram                                            neutron    photon     electron   photon wt  
+              cell      mat   density     density     volume       mass            pieces importance importance importance generation  
+
+        1        2        0  0.00000E+00 0.00000E+00 0.00000E+00 0.00000E+00           0  0.0000E+00 0.0000E+00 0.0000E+00 -1.000E+00  
+        2      101        7  5.08000E+00 8.11743E+02 1.29143E+03 1.04831E+06           1  1.0000E+00 1.0000E+00 1.0000E+00 -1.000E+00  
+        3      102        7  5.08000E+00 8.11743E+02 1.29143E+03 1.04831E+06           1  1.0000E+00 1.0000E+00 1.0000E+00 -1.000E+00  
+        4      121        5  1.12900E+01 3.88034E+03 1.30555E+04 5.06598E+07           0  1.0000E+00 1.0000E+00 1.0000E+00 -1.000E+00  
+        5      122        5  1.12900E+01 3.88034E+03 1.30555E+04 5.06598E+07           0  1.0000E+00 1.0000E+00 1.0000E+00 -1.000E+00  
+        6        1       12  5.38877E-05 1.29000E-03 0.00000E+00 0.00000E+00           0  1.0000E+00 1.0000E+00 1.0000E+00 -1.000E+00  
+        7     4000     2000  3.89534E-02 1.05000E+00 3.64500E+04 3.82725E+04           0  1.0000E+00 1.0000E+00 1.0000E+00 -1.000E+00  
+        8     4001     2001  3.92478E-02 1.05000E+00 3.64500E+04 3.82725E+04           0  1.0000E+00 1.0000E+00 1.0000E+00 -1.000E+00  
+        9     4002     2002  3.95423E-02 1.05000E+00 3.64500E+04 3.82725E+04           0  1.0000E+00 1.0000E+00 1.0000E+00 -1.000E+00  
+       10     4003     2003  3.98367E-02 1.05000E+00 3.64500E+04 3.82725E+04           0  1.0000E+00 1.0000E+00 1.0000E+00 -1.000E+00  
+       11     4004     2004  4.01311E-02 1.05000E+00 3.64500E+04 3.82725E+04           0  1.0000E+00 1.0000E+00 1.0000E+00 -1.000E+00  
+       12     4005     2005  4.04256E-02 1.05000E+00 3.64500E+04 3.82725E+04           0  1.0000E+00 1.0000E+00 1.0000E+00 -1.000E+00  
+       13     4006     2006  4.07200E-02 1.05000E+00 3.64500E+04 3.82725E+04           0  1.0000E+00 1.0000E+00 1.0000E+00 -1.000E+00  
+       14     4007     2007  4.10144E-02 1.05000E+00 3.64500E+04 3.82725E+04           0  1.0000E+00 1.0000E+00 1.0000E+00 -1.000E+00  
+       15     4008     2008  4.13089E-02 1.05000E+00 3.64500E+04 3.82725E+04           0  1.0000E+00 1.0000E+00 1.0000E+00 -1.000E+00  
+       16     4009     2009  4.16033E-02 1.05000E+00 3.64500E+04 3.82725E+04           0  1.0000E+00 1.0000E+00 1.0000E+00 -1.000E+00  
+
+ total                                               3.93194E+05 1.03799E+08
+
+    minimum source weight = 1.0000E+00    maximum source weight = 1.0000E+00
+ 
+  comment.  unresolved resonances with variance reduction with f8 tally.
+ 
+  warning.  Force analog capture for pulse height tallies
+  warning.  Pulse-height tally variance reduction forced off. F8 tallies not reliable.
+
+        28 warning messages so far.
+
+        28 warning messages so far.

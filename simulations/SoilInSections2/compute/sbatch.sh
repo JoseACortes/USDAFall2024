@@ -1,0 +1,9 @@
+sbatch commands/runWith1Slices.sh
+sbatch commands/runWith2Slices.sh
+sbatch commands/runWith3Slices.sh
+sbatch commands/runWith5Slices.sh
+sbatch commands/runWith10Slices.sh
+sbatch commands/runWith50Slices.sh
+sbatch commands/runWith100Slices.sh
+sbatch commands/runWith500Slices.sh
+sbatch commands/runWith1000Slices.sh
