@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<geometry>
+  <cell id="14" material="9" region="54 -55 56 -57 58 -59" universe="11"/>
+  <surface coeffs="-500" id="54" type="x-plane"/>
+  <surface coeffs="500" id="55" type="x-plane"/>
+  <surface coeffs="-500" id="56" type="y-plane"/>
+  <surface coeffs="500" id="57" type="y-plane"/>
+  <surface coeffs="48" id="58" type="z-plane"/>
+  <surface coeffs="348" id="59" type="z-plane"/>
+</geometry>
