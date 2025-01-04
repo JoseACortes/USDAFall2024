@@ -193,4 +193,4 @@ def make_mcnp(
         cells += f'{cell_id} {e} {density} {xx_index[i]} -{xxl_index[i]} {yy_index[i]} -{yyl_index[i]} {zz_index[i]} -{zzl_index[i]} imp:n,p 1\n'
     
     edge_index = [xx_index[0], xxl_index[-1], yy_index[0], yyl_index[-1], zz_index[0], zzl_index[-1]]
-    return cells, edge_index, surfaces, mats
+    return cells, edge_index, surfaces, mats, elems
