@@ -194,3 +194,36 @@ def make_mcnp(
     
     edge_index = [xx_index[0], xxl_index[-1], yy_index[0], yyl_index[-1], zz_index[0], zzl_index[-1]]
     return cells, edge_index, surfaces, mats, elems
+
+
+def yz_slice_inspect(ax, conc_func, y0, y1, z0, z1, x=.5, n=100, v_min=0, v_max=1):
+    """
+    Generate and graph a vertical slice of a 3D function.
+
+    Parameters:
+    y0 (float): The minimum y-coordinate of the slice.
+    y1 (float): The maximum y-coordinate of the slice.
+    z0 (float): The minimum z-coordinate of the slice.
+    z1 (float): The maximum z-coordinate of the slice.
+    x (float): The x-coordinate of the slice.
+    n (int): The number of points to sample in the y and z directions.
+
+    Returns:
+    numpy.ndarray: A 2D array of shape (n, n) where each element is the value of the function at that point in the slice.
+    """
+
+    y = np.linspace(y0, y1, n)
+    z = np.linspace(z0, z1, n)
+    yy, zz = np.meshgrid(y, z)
+    xx = np.full_like(yy, x)
+    points = np.column_stack((xx.flatten(), yy.flatten(), zz.flatten()))
+    conc = conc_func(points)
+    conc = conc.reshape(n, n)
+
+    contourf = ax.contourf(yy, zz, conc, levels=20, cmap='viridis', alpha=0.5, vmin=v_min, vmax=v_max)
+
+    ax.set_xlim(y0, y1)
+    ax.set_ylim(z0, z1)
+    ax.set_aspect('equal')
+    
+    return contourf, conc
